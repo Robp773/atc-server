@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 app.post("/test", (req, res) => {
-  console.log("endpoint hit", req);
+  console.log("endpoint hit");
   res.send("Hello World!");
 });
 
